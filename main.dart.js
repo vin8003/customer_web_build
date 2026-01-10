@@ -32320,7 +32320,7 @@ return s},
 a8B:function a8B(a){var _=this
 _.a=$
 _.c=_.b=null
-_.d="https://ordereasy.win/api/"
+_.d="https://api.ordereasy.win/api/"
 _.e=a
 _.r=!1
 _.w=$},
@@ -110592,12 +110592,12 @@ q.A(q,new A.SN(new A.a8C(s),new A.a8D(s),null,null,null))
 s.KD()},
 KD(){var s=0,r=A.w(t.H),q=this,p
 var $async$KD=A.r(function(a,b){if(a===1)return A.t(b,r)
-for(;;)switch(s){case 0:q.d="https://ordereasy.win/api/"
+for(;;)switch(s){case 0:q.d="https://api.ordereasy.win/api/"
 p=q.a
 p===$&&A.b()
 p=p.OA$
 p===$&&A.b()
-p.sMX("https://ordereasy.win/api/")
+p.sMX("https://api.ordereasy.win/api/")
 A.m7("ApiService Initialized with Base URL: "+q.d)
 return A.u(null,r)}})
 return A.v($async$KD,r)},
