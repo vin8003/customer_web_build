@@ -24,15 +24,25 @@
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Order Easy">
+  <meta name="apple-mobile-web-app-title" content="Order Easy Retailer">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>Order Easy</title>
+  <title>Order Easy Retailer</title>
   <link rel="manifest" href="manifest.json">
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPscsaFXrJVIFo0zfLV_mnnCFSLT4d_W4"></script>
+
+  <script>
+    (function () {
+      const script = document.createElement('script');
+      const apiKey = 'AIzaSyAPscsaFXrJVIFo0zfLV_mnnCFSLT4d_W4';
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}`;
+      script.async = true;
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  </script>
 </head>
 
 <body>
