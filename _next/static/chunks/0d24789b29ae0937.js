@@ -1,7 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,80610,t=>{t.v({button:"Button-module__Vsi6oa__button",fullWidth:"Button-module__Vsi6oa__fullWidth",ghost:"Button-module__Vsi6oa__ghost",loading:"Button-module__Vsi6oa__loading",outline:"Button-module__Vsi6oa__outline",primary:"Button-module__Vsi6oa__primary",secondary:"Button-module__Vsi6oa__secondary",spin:"Button-module__Vsi6oa__spin",spinner:"Button-module__Vsi6oa__spinner"})},38548,t=>{"use strict";var o=t.i(43476),e=t.i(80610);t.s(["Button",0,({children:t,variant:l="primary",isLoading:u=!1,fullWidth:i=!1,className:s,disabled:a,..._})=>(0,o.jsx)("button",{className:`
-        ${e.default.button} 
-        ${e.default[l]} 
-        ${i?e.default.fullWidth:""} 
-        ${u?e.default.loading:""}
-        ${s||""}
-      `,disabled:u||a,..._,children:u?(0,o.jsx)("span",{className:e.default.spinner}):t})])},71689,t=>{"use strict";let o=(0,t.i(75254).default)("arrow-left",[["path",{d:"m12 19-7-7 7-7",key:"1l729n"}],["path",{d:"M19 12H5",key:"x3x0zl"}]]);t.s(["ArrowLeft",()=>o],71689)},69638,t=>{"use strict";let o=(0,t.i(75254).default)("circle-check-big",[["path",{d:"M21.801 10A10 10 0 1 1 17 3.335",key:"yps3ct"}],["path",{d:"m9 11 3 3L22 4",key:"1pflzl"}]]);t.s(["CheckCircle",()=>o],69638)}]);
