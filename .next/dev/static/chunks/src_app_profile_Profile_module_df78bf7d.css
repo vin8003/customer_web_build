@@ -1,0 +1,166 @@
+/* [project]/src/app/profile/Profile.module.css [app-client] (css) */
+.Profile-module__HLzWoG__container {
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.Profile-module__HLzWoG__header {
+  background: #fff;
+  border-bottom: 1px solid #f3f4f6;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px;
+  display: flex;
+}
+
+.Profile-module__HLzWoG__avatar {
+  color: #0284c7;
+  background: #e0f2fe;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+}
+
+.Profile-module__HLzWoG__name {
+  color: #1a1a1a;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Profile-module__HLzWoG__contact {
+  color: #6b7280;
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+
+.Profile-module__HLzWoG__main {
+  padding: 16px;
+}
+
+.Profile-module__HLzWoG__section {
+  background: #fff;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px #0000000d;
+}
+
+.Profile-module__HLzWoG__sectionTitle {
+  color: #374151;
+  border-bottom: 1px solid #f3f4f6;
+  margin: 0;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Profile-module__HLzWoG__menuItem {
+  color: #1a1a1a;
+  border-bottom: 1px solid #f9fafb;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background .2s;
+  display: flex;
+}
+
+.Profile-module__HLzWoG__menuItem:last-child {
+  border-bottom: none;
+}
+
+.Profile-module__HLzWoG__menuItem:hover {
+  background: #f9fafb;
+}
+
+.Profile-module__HLzWoG__logoutBtn {
+  color: #ef4444;
+  cursor: pointer;
+  background: #fff;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+
+.Profile-module__HLzWoG__logoutBtn:hover {
+  background: #fff5f5;
+}
+
+.Profile-module__HLzWoG__pointsSummary {
+  background: #fff;
+  border-bottom: 1px solid #f3f4f6;
+  padding: 16px;
+}
+
+.Profile-module__HLzWoG__pointRow {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  display: flex;
+}
+
+.Profile-module__HLzWoG__pointRow:last-child {
+  margin-bottom: 0;
+}
+
+.Profile-module__HLzWoG__shopNameSmall {
+  color: #4b5563;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.Profile-module__HLzWoG__pointsSmall {
+  color: #0284c7;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.Profile-module__HLzWoG__morePoints {
+  color: #9ca3af;
+  text-align: right;
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+.Profile-module__HLzWoG__highlightPoints {
+  background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+  padding: 16px;
+  display: flex;
+}
+
+.Profile-module__HLzWoG__pointsLabel {
+  color: #1e40af;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-bottom: 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.Profile-module__HLzWoG__pointsValue {
+  color: #1d4ed8;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=src_app_profile_Profile_module_df78bf7d.css.map*/

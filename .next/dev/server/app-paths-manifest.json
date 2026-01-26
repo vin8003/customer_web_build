@@ -1,0 +1,10 @@
+{
+  "/orders/detail/page": "app/orders/detail/page.js",
+  "/profile/edit/page": "app/profile/edit/page.js",
+  "/profile/page": "app/profile/page.js",
+  "/retailer/category/page": "app/retailer/category/page.js",
+  "/retailer/page": "app/retailer/page.js",
+  "/retailer/product/page": "app/retailer/product/page.js",
+  "/retailer/products/page": "app/retailer/products/page.js",
+  "/rewards/page": "app/rewards/page.js"
+}
