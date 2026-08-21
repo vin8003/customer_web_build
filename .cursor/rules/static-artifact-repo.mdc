@@ -1,0 +1,12 @@
+---
+description: Static Cloudflare Pages artifact repo — no app features; updates via customer_ordereasy_njs deploy PR; main = production
+alwaysApply: true
+---
+
+# Static artifact repo (customer_web_build)
+
+- This repo is the **static Cloudflare Pages** source for the customer frontend. **`main` is production.**
+- **Do not implement app features here.** Application work belongs in sibling `../customer_ordereasy_njs`.
+- Updates come from the **deploy-frontend** flow in `customer_ordereasy_njs`: build → replace contents (keep `.git`) → feature branch → **PR into `main`** → merge after approval.
+- Never commit/push directly to `main`. Never merge without ≥1 approval.
+- Never force-push `main`.
